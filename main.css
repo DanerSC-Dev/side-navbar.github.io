@@ -1,0 +1,66 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	/*background-color: #252D43;*/
+}
+
+#nav{
+    background-color: #252C36;
+    width: 300px;
+    position: relative;
+    left: 0;
+    transition: left .8s;
+}
+.side-bar{
+	position: relative !important;
+	left: -300px !important;
+}
+.list{
+	height: 100vh;
+
+}
+#menu{
+	font-size: 35px;
+	margin: 5px 0 0 5px;
+	color: #fff;
+	padding: 7px;
+	position: absolute;
+	left: 295px;
+	background-color: #252C36
+}
+#menu:hover{
+	background-color: #252D43;
+	cursor: pointer;
+}
+li.element{
+	height: 12.5vh;
+	margin-left: 10px;
+}
+li.elem1{
+	margin-top: 28px;
+}
+li.element:hover{
+	background-color: #252D43;
+	cursor: pointer;
+}
+li.element a.enlace{
+	position: relative;
+	top: -7px;
+	display: inline-block;
+	width: 83%;
+	height: 75%;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 10px;
+	font-size: 20px;
+}
+li.element span{
+	height: 14vh;
+	font-size: 30px;
+    line-height: 14vh;
+	color: #fff;
+}
+
+
